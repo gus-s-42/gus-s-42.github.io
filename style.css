@@ -10,18 +10,18 @@
 .project-container project{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content:space-between;
     text-align: center;
     background-color: white;
-    max-width: 50%;
+    max-width: 45%;
+    border-radius: 5%;
 }
 
 .small-image{
     display: flex;
     max-width:100%;
-    border-radius: 5%;
-    height:auto;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
 }
 
 .header-container {
@@ -72,6 +72,15 @@ header {
 h1 {
     font-size: 2rem;
     color: #000000;
+}
+h3 {
+    font-size: 2rem;
+    margin: .5rem;
+    margin-bottom: .125rem;
+}
+h4 {
+    margin: .125rem;
+    padding-bottom: .5rem;
 }
 a {
     color: #0366d6;
