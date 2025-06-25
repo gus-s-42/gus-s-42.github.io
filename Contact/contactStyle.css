@@ -38,6 +38,10 @@
 }
 
 .button-container button {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 1rem 2rem;
     font-size: 2rem;
     border: none;
@@ -48,6 +52,25 @@
 }
 
 .button-container button:hover {
+    background-color: #4242421b;
+}
+
+.button-container contactButton {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+    font-size: 2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(23, 23, 23);
+    color: white;
+    cursor: grab;
+    gap: 2rem;
+}
+
+.button-container contactButton:hover {
     background-color: #4242421b;
 }
 
