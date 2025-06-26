@@ -1,36 +1,48 @@
 .project-container {
     display:flex;
     padding: 2%;
-    gap: 1rem;
+    gap: 3rem;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: #008000;
+    background-color: rgb(36, 36, 36);
     justify-content: center;
 }
 .project-container project{
     display: flex;
     flex-direction: column;
-    justify-content:space-between;
     text-align: center;
-    background-color: white;
+    background-color: rgb(23, 23, 23);
     max-width: 45%;
     border-radius: 5%;
 }
 
+.project-container project:hover {
+    background-color: #4242421b;
+}
+
 .small-image{
+    margin-top: 0%;
     display: flex;
     max-width:100%;
+    max-height:70%;
     border-top-left-radius: 5%;
     border-top-right-radius: 5%;
+    border-bottom-style: solid;
+    border-bottom-width: .5rem;
+    border-color: rgb(221, 115, 115);
 }
 
 .header-container {
     display:flex;
+    width: 100%;
     flex-direction: column;
     justify-content: center;
-    background-color: violet;
+    background-color: rgb(23, 23, 23);
+    padding: 2%;
+    border-bottom-style: solid;
+    border-bottom-width: .5rem;
+    border-color: rgb(221, 115, 115);
 }
-
 
 
 .button-container {
@@ -38,21 +50,20 @@
     gap: 1rem;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: blue;
 }
 
 .button-container button {
     padding: 1rem 2rem;
-    font-size: 1rem;
+    font-size: 2rem;
     border: none;
     border-radius: 5px;
-    background-color: green;
+    background-color: rgb(23, 23, 23);
     color: white;
     cursor: grab;
 }
 
 .button-container button:hover {
-    background-color: #0000001b;
+    background-color: #4242421b;
 }
 
 
@@ -60,9 +71,10 @@
 body {
     font-family: Arial, sans-serif;
     margin: 1rem;
-    background-color: orange;
-    color: #333;
+    background-color: rgb(36, 36, 36);
     line-height: 1.6;
+    overflow-y: scroll; 
+    overflow-x: hidden;
 }
 header {
     text-align: center;
@@ -71,17 +83,19 @@ header {
 }
 
 h1 {
-    font-size: 2rem;
-    color: #000000;
+    font-size: 3rem;
+    color: white;
 }
 h3 {
     font-size: 2rem;
     margin: .5rem;
     margin-bottom: .125rem;
+    color: white;
 }
 h4 {
-    margin: .125rem;
-    padding-bottom: .5rem;
+    font-size: 1.5rem;
+    margin: .01rem;
+    color: white;
 }
 a {
     color: #0366d6;
