@@ -12,8 +12,19 @@
     flex-direction: column;
     text-align: center;
     background-color: rgb(23, 23, 23);
-    max-width: 45%;
+    width: 45%;
     border-radius: 5%;
+}
+
+@media (max-width: 768px) {
+  .project-container project {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(23, 23, 23);
+    width: 80%;
+    border-radius: 5%;
+  }
 }
 
 .project-container project:hover {
@@ -34,11 +45,12 @@
 
 .header-container {
     display:flex;
-    width: 100%;
+    min-width: 100%;
     flex-direction: column;
     justify-content: center;
     background-color: rgb(23, 23, 23);
     padding: 2%;
+    margin: 0%;
     border-bottom-style: solid;
     border-bottom-width: .5rem;
     border-color: rgb(221, 115, 115);
@@ -70,11 +82,11 @@
 
 body {
     font-family: Arial, sans-serif;
-    margin: 1rem;
     background-color: rgb(36, 36, 36);
     line-height: 1.6;
     overflow-y: scroll; 
     overflow-x: hidden;
+    margin: 0%;
 }
 header {
     text-align: center;
@@ -96,6 +108,7 @@ h4 {
     font-size: 1.5rem;
     margin: .01rem;
     color: white;
+    margin-bottom: 0rem;
 }
 a {
     color: #0366d6;
