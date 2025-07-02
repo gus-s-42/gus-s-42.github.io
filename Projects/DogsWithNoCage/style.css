@@ -39,11 +39,12 @@
 
 .header-container {
     display:flex;
-    width: 100%;
+    min-width: 100%;
     flex-direction: column;
     justify-content: center;
     background-color: rgb(23, 23, 23);
     padding: 2%;
+    margin: 0%;
     border-bottom-style: solid;
     border-bottom-width: .5rem;
     border-color: rgb(221, 115, 115);
