@@ -12,8 +12,8 @@
 
 .small-image{
     display: flex;
-    max-width:35%;
-    border-radius: 5%;
+    max-width: 80%;
+    margin-bottom: 0%;
 }
 
 .header-container {
@@ -58,16 +58,16 @@
 .button-container contactButton {
     display:flex;
     flex-direction: column;
-    justify-content: space-between;
+    max-width: 12.5%;
     align-items: center;
+    justify-content: center;
     padding: 1rem 3rem;
-    font-size: 2rem;
     border: none;
     border-radius: 5px;
     background-color: rgb(23, 23, 23);
     color: white;
     cursor: grab;
-    gap: 2rem;
+    gap: .8rem;
 }
 
 .button-container contactButton:hover {
@@ -82,7 +82,7 @@ body {
     background-color: rgb(36, 36, 36);
     line-height: 1.6;
     overflow-y: scroll; 
-    overflow-x: hidden;
+    overflow-x: scroll;
 }
 header {
     text-align: center;
@@ -99,7 +99,8 @@ h3 {
     color: white;
 }
 h4 {
-    margin: .125rem;
+    font-size: clamp(.6rem, .9vw, 1rem);
+    margin-top: 0%;
     padding-bottom: .5rem;
 }
 a {
