@@ -12,6 +12,7 @@
 
 .small-image{
     display: flex;
+    min-width: 55%;
     max-width: 80%;
     margin-bottom: 0%;
 }
