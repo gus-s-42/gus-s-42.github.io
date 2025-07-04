@@ -1,13 +1,20 @@
 .about-container {
     display:flex;
-    padding: 2%;
-    gap: 1rem;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     background-color: rgb(36, 36, 36);
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: left;
+    gap: 2%;
+    margin-bottom: 2%;
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .small-image{
@@ -70,14 +77,16 @@ h1 {
     color: white;
 }
 h3 {
-    font-size: 2rem;
+    font-size: 1.75rem;
     margin: .5rem;
     margin-bottom: .125rem;
     color: white;
 }
 h4 {
-    margin: .125rem;
+    font-size: 1.5rem;
+    margin: .5rem;
     padding-bottom: .5rem;
+    color: white;
 }
 a {
     color: #0366d6;
