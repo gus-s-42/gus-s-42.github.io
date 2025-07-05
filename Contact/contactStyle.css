@@ -87,8 +87,12 @@ header {
     margin-bottom: 2rem;
 }
 h1 {
-    font-size: 3rem;
+    justify-content: center;
+    font-size: clamp(1.5rem, 8vw, 4rem);
     color: white;
+    margin-left: .5rem;
+    margin-right: .5rem;
+    align-self: center;
 }
 h3 {
     font-size: 2rem;
