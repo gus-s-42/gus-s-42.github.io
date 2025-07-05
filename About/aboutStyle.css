@@ -25,14 +25,14 @@
 
 .profile-image{
     display: flex;
-    max-width: 35%;
+    width: 35%;
     border-radius: 5%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .profile-image {
     display: flex;
-    max-width: 80%;
+    width: 80%;
     border-radius: 5%;
   }
 }
