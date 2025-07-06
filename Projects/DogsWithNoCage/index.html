@@ -29,9 +29,9 @@
         <h1>Cage</h1>
       </div>
       <project>
-        <h3>Genre: 2D Metroidvania</h3>
-        <h3>Platform: PC</h3>
-        <h3>Development: August 2024 - Present</h3>
+        <h3><u>Genre:</u> 2D Metroidvania</h3>
+        <h3><u>Platform:</u> PC</h3>
+        <h3><u>Development:</u> August 2024 - Present</h3>
       </project>
       <h2>Trailer:</h2>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/5a5dupFuvAo?si=2GFOQFbJGeAZ2yGB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -45,9 +45,15 @@
       <h2>Design Documents:</h2>
         <h3>Code Diagrams:</h3>
         <div class="image-container">
+          <h5>This diagram is used to display the two main components of the core gameplay loop: dialogue and traversal. These two systems feed into each other
+            through puzzles, enemies, and obstacles. After solving one of these interactions with Komori or Amon, or both, the player will be directed back into a dialogue and thus the gameloop continues.
+          </h5>
           <img src="Images/MainGameLoop.png" alt="Spider Verse Shader Banner" class="small-image">
+          <h5>This diagram displays how I seperated the scripts revolving around my player into animation based scripts and data driven scripts. These scripts utilize components, so no two scripts should rely on another. This means that I can add new scripts without the worry of damaging the code in another script.</h5>
           <img src="Images/PlayerScriptStructure.png" alt="Spider Verse Shader Banner" class="small-image">
+          <h5>The diagram for the enemy's code structure is very similar to the player's code structure. The only difference, at this current juncture, is that the sound code is located in the animation script rather than its own seperate script. This will be changed as more enemies are added to the game.</h5>
           <img src="Images/EnemyScriptStructure.png" alt="Spider Verse Shader Banner" class="small-image">
+          <h5>This diagram depicts the flow of how dialogue works in DWNC. When a dialogue is triggered in a level, the data (reactions, the names of characters, etc.) of that dialogue sequence is sent to the dialogue manager. The dialogue manager takes that data, stores it in a queue, and pops that data from the queue to be displayed on a Unity canvas.</h5>
           <img src="Images/DialogueStructure.png" alt="Spider Verse Shader Banner" class="small-image">
         </div>
     </div>
