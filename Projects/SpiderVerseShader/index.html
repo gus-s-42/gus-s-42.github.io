@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A simple GitHub Pages site" />
+  <title>My GitHub Pages Site</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="header-container">
+        <h1>Augustus Sabino</h1>
+        <div class="button-container">
+            <button onclick="location.href='/'">Projects</button>
+            <button onclick="location.href='https://docs.google.com/document/d/1wmgHXT65pB0dQwqhNGoFbQMOPHenaCvpH3CZ8Cz8kPM/edit?usp=sharing'">Resume</button>
+            <button onclick="location.href='/Contact'">Contact</button>
+            <button onclick="location.href='/About'">About</button>
+        </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="project-container">
+      <div class="title-container">
+        <h1>Spider-Verse</h1>
+        <h1>Shader</h1>
+      </div>
+      <project>
+        <h3><u>Genre:</u> Graphics</h3>
+        <h3><u>Platform:</u> PC</h3>
+        <h3><u>Development:</u> April 2023</h3>
+      </project>
+      <h2>Trailer:</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/EkeKThSi37w?si=FmyHvYkgDn1jJ7Zd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <h2>Screenshots:</h2>
+        <div class="image-container">
+          <img src="Images/TitleScreen.png" alt="Spider Verse Shader Banner" class="small-image">
+          <img src="Images/InGameScreen.png" alt="Spider Verse Shader Banner" class="small-image">
+          <img src="Images/GameOverScreen.png" alt="Spider Verse Shader Banner" class="small-image">
+        </div>
+      <h2>Design Documents:</h2>
+        <h3>Code Diagrams:</h3>
+        <div class="image-container">
+          <h5>This diagram is used to display the two main components of the core gameplay loop: dialogue and traversal. These two systems feed into each other
+            through puzzles, enemies, and obstacles. After solving one of these interactions with Komori or Amon, or both, the player will be directed back into a dialogue and thus the gameloop continues.
+          </h5>
+          <img src="Images/HighLevelCodeDiagram.png" alt="Spider Verse Shader Banner" class="small-image">
+        </div>
+    </div>
+  </main>
+</body>
+</html>
