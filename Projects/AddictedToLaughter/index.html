@@ -32,17 +32,21 @@
         <h3><u>Platform:</u> PC</h3>
         <h3><u>Development:</u> January 2024</h3>
         <h3><u>Role:</u> UI Developer, 2D Artist</h3>
+        <h3><u>Skills:</u> C#, Unity, Procreate</h3>
         <h3><u>Team Members:</u></h3>
           <h4 style="cursor: grab;" onclick="location.href='https://www.linkedin.com/in/caleb-helbling-b761a918a'">- Caleb Helbling</h4>
           <h4 style="cursor: grab;" onclick="location.href='https://www.linkedin.com/in/jonathan-schwenk/'">- Johnathan Schwenk</h4>
           <h4 style="cursor: grab;" onclick="location.href='https://www.linkedin.com/in/jasonakingneu/'">- Jason King</h4>
         <h3><u>Description:</u> Addicted to Laughter is a top down infinite exploration game, where the player must collect pills to increase happiness. How long will you be able to survive the endless maze of offices?</h3>
+        <h3>This project was a submission for Global Game Jam 2024. My role for the project was primarily as a UI programmer and designer in which I implemented all of the UI and menus in the game. I worked on the design of the game as well.</h3>
       </project>
       <div class="button-container">
         <img onclick="location.href='https://globalgamejam.org/games/2024/addicted-laughter-1'" style="width: 40%; cursor:grab;" src="https://s3-us-west-1.amazonaws.com/ggj/site/site-images/GGJ00_Logo_Light.svg" alt="Spider Verse Shader Banner" class="small-image">
       </div>
       <h2>Trailer:</h2>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/8wITlsF3MbE?si=KhGOHBwG0wPd5qFe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <h2>Gameplay Walkthrough:</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/SM35u-C3EaU?si=IVQ1pvEUCPgSsBEh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       <h2>Screenshots:</h2>
         <div class="image-container">
           <img src="Images/ATLInGameTitle.png" alt="Spider Verse Shader Banner" class="small-image">
@@ -54,16 +58,25 @@
       <h2>Contributions:</h2>
         <h3>Art:</h3>
         <div class="image-container">
-          <h5>This diagram is used to display the two main components of the core gameplay loop: dialogue and traversal. These two systems feed into each other
-            through puzzles, enemies, and obstacles. After solving one of these interactions with Komori or Amon, or both, the player will be directed back into a dialogue and thus the gameloop continues.
-          </h5>
+          <h5>This is the poster I created for our submission. I wanted to try and capture the spirit of the game through the poster as much as possible. Therefore, I tried to hint at our happiness mechanic through the transition from the colorful background to greyscale at the bottom. I also put our main character in office attire because it fit the theme of our game.</h5>
           <img src="Images/AddictedToLaughterPoster.png" alt="Spider Verse Shader Banner" class="small-image">
-          <h5>This diagram displays how I seperated the scripts revolving around my player into animation based scripts and data driven scripts. These scripts utilize components, so no two scripts should rely on another. This means that I can add new scripts without the worry of damaging the code in another script.</h5>
+          <h5>Like the poster, I wanted to try and capture the spirit of the game through the title card. I made sure the text was as legible as possible by making it white white a black outline. I also added the rainbow coffee cup to emphasize the main mechanic of the game.</h5>
           <img src="Images/AddictedToLaughterTitle.png" alt="Spider Verse Shader Banner" class="small-image">
-          <h5>The diagram for the enemy's code structure is very similar to the player's code structure. The only difference, at this current juncture, is that the sound code is located in the animation script rather than its own seperate script. This will be changed as more enemies are added to the game.</h5>
+          <h5>This is the slider for the happiness meter in the game. By using the flourescent colors, not only did the slider fit the theme of the game, but it added pressure to the player when they're happiness was low. As the happiness level got to low levels, the screen would turn black and white but the fluorescent slider would stay the same color, adding pressure to the player to find more pills. This is very similar to the technique the <i>Call of Duty</i> franchise uses to achieve the same effect for players at low health.</h5>
           <img src="Images/AddictedToLaughterHappinessBar.png" alt="Spider Verse Shader Banner" class="small-image">
-          <h5>This diagram depicts the flow of how dialogue works in DWNC. When a dialogue is triggered in a level, the data (reactions, the names of characters, etc.) of that dialogue sequence is sent to the dialogue manager. The dialogue manager takes that data, stores it in a queue, and pops that data from the queue to be displayed on a Unity canvas.</h5>
-          <img src="Images/AddictedToLaughterPill.png" alt="Spider Verse Shader Banner" class="small-image">
+          <h5>This is the pill for the happiness slider in the game. It was used to mark where the end of the slider was in the game.</h5>
+          <img style="width: 30%;" src="Images/AddictedToLaughterPill.png" alt="Spider Verse Shader Banner" class="small-image">
+        </div>
+        <h3>Menus:</h3>
+        <div class="image-container">
+          <h5>This is the menu for the game. I wanted to keep the menu very simple, so I opted to go for a static background and four buttons. The high score counter in the top left was a collaboration between Johnathan Scwenk and me. He added the scripts to save the player's high score and I added the UI element on the home screen.</h5>
+          <img src="Images/ATLMenu.png" alt="Spider Verse Shader Banner" class="small-image">
+          <h5>The controls menu for the game is also very simple. It outlines the movement controls and the controls for the pause menu. Additionally, our team decided to add the "Pills don't respawn...." text, as we noticed playtesters did not realize they could not return to previous rooms to gain more pills. After giving that advice to the players on the control screen, we noticed a significant improvement in this issue.</h5>
+          <img src="Images/ATLControls.png" alt="Spider Verse Shader Banner" class="small-image">
+          <h5>This is the credits screen for the game, it highlights everyone's name and their role on this project. It also gives credit for the music we used in this game.</h5>
+          <img src="Images/ATLCredits.png" alt="Spider Verse Shader Banner" class="small-image">
+          <h5>This is the pause menu for the game. Like the other menus in the game, we wanted to keep the pause menu as simple as possible. Therefore, we left the menu with only three buttons. As our game has simple controls and a short play time, we decided to leave the controls menu on the main menu screen.</h5>
+          <img src="Images/ATLPause.png" alt="Spider Verse Shader Banner" class="small-image">
         </div>
     </div>
   </main>
