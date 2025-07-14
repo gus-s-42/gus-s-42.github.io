@@ -39,11 +39,9 @@
 
 .header-container {
     display:flex;
-    min-width: 100%;
     flex-direction: column;
     justify-content: center;
     background-color: rgb(23, 23, 23);
-    padding: 2%;
     margin: 0%;
     border-bottom-style: solid;
     border-bottom-width: .5rem;
@@ -51,9 +49,12 @@
 }
 
 
-
 .button-container {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    align-self: center;
     display: flex;
+    width: fit-content;
     gap: 1rem;
     flex-wrap: wrap;
     justify-content: center;
